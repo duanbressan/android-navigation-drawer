@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import duan.example.navigationdrawer.Adapters.MyPagerAdapter;
+import duan.example.navigationdrawer.adapters.MyPagerAdapter;
 
 
 public class MaterialsActivity extends AppCompatActivity {
@@ -78,7 +78,7 @@ public class MaterialsActivity extends AppCompatActivity {
             Bundle arguments = getArguments();
             int pageNumber = arguments.getInt(ARG_PAGE);
             TextView myText = new TextView(getActivity());
-            myText.setText("Hello I am the text inside this Fragment " + pageNumber);
+            myText.setText(getActivity().getResources().getString(R.string.pagina) + " " + pageNumber);
             myText.setGravity(Gravity.CENTER);
             return myText;
         }

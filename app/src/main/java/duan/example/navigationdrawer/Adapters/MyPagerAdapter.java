@@ -1,4 +1,4 @@
-package duan.example.navigationdrawer.Adapters;
+package duan.example.navigationdrawer.adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -29,4 +29,3 @@ public class MyPagerAdapter extends FragmentStatePagerAdapter {
         return "Tab " + (position + 1);
     }
 }
-

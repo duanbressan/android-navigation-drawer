@@ -25,7 +25,7 @@
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:text="Duan Bressan"
+        android:text="@string/duan"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
@@ -33,6 +33,6 @@
         android:layout_width="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"
-        android:text="duan.trabalho@hotmail.com" />
+        android:text="@string/git_hub" />
 
 </LinearLayout>
